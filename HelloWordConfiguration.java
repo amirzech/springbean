@@ -22,6 +22,10 @@ public class HelloWordConfiguration {
     public Person firstperson(){
         return new Person(name(), age(), adress());
     }
+    @Bean(name="noskill") 
+    public String skill(age,person,person()){
+        return "pio";
+    }
 
     @Bean(name = "ads")
     public Adress adress(){
