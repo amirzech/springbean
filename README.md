@@ -1,0 +1,2 @@
+# springbean
+spring bean configuration
